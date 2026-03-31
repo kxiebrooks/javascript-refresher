@@ -19,10 +19,7 @@ const fulldeck = []
 
 for (let i = 0; i < suits.length; i++) {
     for (let j = 0; j < ranks.length; j++) {
-        const card = {
-            rank: ranks[j],
-            suit: suits[i]
-        }
+        const card = {rank: ranks[j], suit: suits[i]}
         fulldeck.push(card)
     }
 }
